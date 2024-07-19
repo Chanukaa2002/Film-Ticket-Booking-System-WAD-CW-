@@ -41,9 +41,9 @@ class Mail
             $mail->SMTPAuth = true;
 
             $mail->Host = "smtp.gmail.com";
-            $mail->Username   = 'movielk72@gmail.com';
+            $mail->Username   = 'SMTPEMAIL';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Password = "kilc ngmu nhlv rwbu ";
+            $mail->Password = "SMTPPASSWORD";
             $mail->Port       = 587;
 
             $mail->isHtml(true);
